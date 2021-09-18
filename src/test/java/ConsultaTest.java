@@ -13,7 +13,6 @@ class ConsultaTest {
         Medico medico = new Medico("Pedro", "190777");
         Consultorio consultorio = new Consultorio();
         Consulta consulta = new Consulta(medico, paciente, consultorio);
-        consulta.getNomePaciente();
         assertEquals("Pedro", consulta.getNomePaciente());
     }
 
@@ -49,7 +48,6 @@ class ConsultaTest {
         Medico medico = new Medico("Pedro", "190777");
         Consultorio consultorio = new Consultorio();
         Consulta consulta = new Consulta(medico, paciente, consultorio);
-        consulta.getNomePaciente();
         assertEquals("18177686750", consulta.getCPFPaciente());
     }
 
