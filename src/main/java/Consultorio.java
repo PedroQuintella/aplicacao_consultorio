@@ -31,8 +31,4 @@ public class Consultorio {
     public boolean verificarConsulta(Medico medico) {
         return this.medicos.contains(medico);
     }
-
-    public String getNomePacienteConsulta() {
-
-    }
 }

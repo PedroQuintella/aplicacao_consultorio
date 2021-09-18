@@ -55,4 +55,20 @@ public class Consulta {
         }
         this.consultorio = consultorio;
     }
+
+    public String getNomePaciente() {
+        return paciente.getNome();
+    }
+
+    public String getNomeMedico() {
+        return medico.getNome();
+    }
+
+    public String getCRMMedico() {
+        return medico.getCrm();
+    }
+
+    public String getCPFPaciente() {
+        return paciente.getCpf();
+    }
 }
