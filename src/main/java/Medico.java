@@ -38,4 +38,8 @@ public class Medico extends Pessoa {
     public boolean verificarConsulta(Consulta consulta) {
         return this.consultas.contains(consulta);
     }
+
+    public List<Consulta> getConsultas() {
+        return this.consultas;
+    }
 }
